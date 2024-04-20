@@ -9,6 +9,7 @@ SETUP:
 * npm init -y
 * npm install dotenv
 * touch .env
+* npm install ethers@5.7
 * git init
 * touch .gitignore
     - with an editor, insert in .gitignore: 
@@ -18,3 +19,6 @@ SETUP:
 * git remote add origin https://github.com/wstalmans1/count2_AU.git
 * git commit -m "initial commit"
 * git push -u origin main
+* in .env insert: 
+    - INFURA_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
+    - PRIVATE_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
