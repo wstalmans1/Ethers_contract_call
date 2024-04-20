@@ -11,6 +11,7 @@ SETUP:
 * touch .env
 * npm install ethers@5.7
 * git init
+* echo "# Project Title" > README.md
 * touch .gitignore
     - with an editor, insert in .gitignore: 
     - node_modules
